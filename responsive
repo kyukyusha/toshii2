@@ -1,0 +1,195 @@
+/*---------------
+安全第一
+--------------*/
+@media screen and (max-width:1200px){
+  .safety div{
+    width: 60%;
+    padding: 2rem;
+  }
+  .safety_box {
+    border-bottom: 1px solid white;
+  }
+  .safety h1 {
+  }
+
+}
+
+@media screen and (max-width:992px) {
+  /*------------
+  ヘッダーの箱の中
+  ---------------*/
+  #top_box {
+    top: 300px;
+    left: 100px;
+  }
+  /*---------------
+  ふっだーレスポンシブ
+  ---------------*/
+  .top_wrapper {
+    display: none;
+  }
+  .responsive {
+    display: inherit;
+  }
+  /*------------
+  自活できるのがいいですね。
+  --------------*/
+  .speak2 p,.speak2 b {
+    font-size: 17px;
+  }
+  .speak img {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width:768px){
+  /*------------
+  ヘッダーの箱の中　レスポンシブ
+  ----------*/
+  header {
+    height: 600px;
+  }
+  video {
+    height: 600px;
+  }
+  #top_box {
+    display: none;
+  }
+  #top_box2 {
+    display: block;
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    color: white;
+    width: 80%
+  }
+  #top_box2 a {
+    color: white;
+    text-decoration: none;
+  }
+/*----------
+ヘッダーの箱の下
+-----------*/
+  #top_box3 {
+    display: block;
+    margin: 2rem 2rem;
+    border-bottom: 1px solid rgba(84, 82, 82, 0.35);
+  }
+
+  #top_box3 ul {
+    padding-left: 0;
+    margin-top: 2rem;
+  }
+  #top_box3 li {
+    list-style: none;
+
+  }
+  /*-------------
+  写真３つ
+  ------------*/
+  .main h1 {
+    font-size: 20px;
+  }
+  .main_wrapper2 p {
+    font-size: 20px;
+    width: 100%;
+    padding-bottom: 2rem;
+    justify-content: center;
+  }
+  .main3 p {
+    border-bottom: 1px solid rgba(84, 82, 82, 0.35);
+  }
+ /*-------------
+ 画像と説明
+ --------------*/
+ .second div div {
+   padding-left: 0;
+   padding-right: 0;
+ }
+ .second_wrapper,.second_wrapper3 {
+   flex-direction: column-reverse;
+ }
+.gray {
+  background-color: white;
+  margin-top: -50px;
+  padding: 40px 0;
+}
+.gray,.green {
+  width: 70%;
+  margin-bottom: 20px
+}
+.green {
+  padding: 60px 0;
+}
+.second img {
+  max-width: 90%;
+}
+.second_image {
+  text-align: center;
+}
+.second_box h1 {
+  font-size: 25px;
+}
+/*------------
+安全第一
+-----------*/
+.safety h2 {
+  font-size: 25px;
+}
+.safety .safety_box {
+  padding: 10px 0 50px 0;
+}
+.safety .safety_boxes {
+  padding: 40px 0 0 0;
+}
+/*----------------
+自活できるのがいいですね。
+-----------------*/
+  .speak {
+    margin-top: 20px;
+    }
+  .speak2 {
+    margin-top: 20px;
+    }
+  .speak2 p:first-child {
+    padding-top: 50px;
+    }
+  .speak2 p:last-child {
+    padding-bottom: 50px;
+    }
+  .speak2 p,.speak2 b {
+    font-size: 15px;
+    }
+  .speak1,.speak2 {
+    padding-right: 0!important;
+    padding-left: 0!important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .speak .speak1 {
+    width: 90%;
+  }
+  /*----------------
+  働き方を変えたいなら
+  -----------------*/
+  .change_box2 {
+    padding: 10px;
+  }
+  /*------------
+  フッター
+  -------------*/
+  .last {
+    display: none;
+  }
+  .last2 {
+    border: none;
+    padding: 0;
+    margin-top: -20px;
+  }
+  /*---------------
+  icons
+  ----------------*/
+  .icons {
+    display: none;
+  }
+}

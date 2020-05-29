@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>test2</title>
+    <link rel="stylesheet" href="testcss.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!--ブートストラップのｃｓｓ-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--fontawesome-->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    <!--ヘッダー 上のメニュー-->
+    <header>
+      <div class="top_wrapper">
+        <div id="top_logo">
+          <a href="#"><i class="fas fa-shapes fa-2x"></i></a>
+        </div>
+        <div id="top_list">
+          <ul>
+            <li><a href="#">日本語(JP)</a></li>
+            <li><a href="#">¥JPY</a></li>
+            <li><a href="#">ホストをはじめる</a></li>
+            <li><a href="#">ヘルプ</a></li>
+            <li><a href="#">登録する</a></li>
+            <li><a href="#">ログイン</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!--ドロワーメニュー用-->
+      <div class="responsive">
+        <label for="input"><i class="fas fa-shapes fa-2x responsive_icon"></i></label>
+        <input type="checkbox" id="input">
+        <div class="responsive_list">
+          <div class="list1">
+            <a href="#">ホーム</a>
+          </div>
+          <div class="list2">
+            <a href="#">友達を紹介する</a>
+            <a href="#">ホストを紹介</a>
+            <a href="#">Airbnbビジネス</a>
+          </div>
+          <div class="list3">
+            <a href="#">言語<br>日本語(JP)</a>
+            <a href="#">通貨<br>￥JPY</a>
+          </div>
+          <div class="list4">
+            <a href="#">お部屋を掲載</a>
+            <a href="#">お家のホスティング</a>
+            <a href="#">体験をホストする</a>
+          <div class="list5">
+            <a href="#">ヘルプ</a>
+            <a href="#">登録する</a>
+            <a href="#">ログイン</a>
+          </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--ヘッダーの箱の中-->
+
+      <div id="top_box">
+        <h1>世界の果てまで、アットホーム</h1>
+        <br>
+        <a href="#">Airbnbビジネスプログラムの動画を見る</a><br>
+        <br>
+        <a href="#">まずは仕事用メールアドレスの入力から</a><br>
+        <input type="text" class="hidden">
+        <ul>
+          <li>出張管理をご担当ですか？</li>
+          <li><a href="#">もっと詳しく</a></li>
+        </ul>
+      </div>
+
+
+
+    <!--ヘッダーの箱の中　レスポンシブ-->
+
+      <div id="top_box2">
+        <h2>世界の果てまで、アットホーム</h2>
+        <br>
+        <a href="#">Airbnbビジネスプログラムの動画を見る</a><br>
+      </div>
+
+
+    <video src="video/mov_hts-samp003.mp4" autoplay muted poster="">
+    </video>
+  </header>
+
+
+  <div id="top_box3">
+    <a href="#" style="color: black;">まずは仕事用メールアドレスの入力から</a><br>
+    <input type="text" class="hidden">
+    <ul>
+      <li>出張管理をご担当ですか？</li>
+      <li><a href="#" class="anchor">もっと詳しく</a></li>
+    </ul>
+  </div>
+    <!--写真３つ container　main　-->
+
+    <div class="container main">
+      <div class="row main_wrapper">
+        <h1>最高の仕事に必要なものすべてを完備</h1>
+      </div>
+      <div class="row main_wrapper2">
+        <div class="col-md-3">
+          <img src="img/mountain.png" alt="">
+          <p>最高の宿泊先＆デザイナーズホテル</p>
+        </div>
+        <div class="col-md-3">
+          <img src="img/mountain.png" alt="">
+          <p>チームビルディング体験</p>
+        </div>
+        <div class="col-md-3 main3">
+          <img src="img/mountain.png" alt="">
+          <p>コラボを育むスペース</p>
+        </div>
+      </div>
+    </div>
+
+  <!--画像と説明　container second-->
+
+    <div class="container second">
+      <!--1段目-->
+      <div class="row second_wrapper mb-3">
+        <div class="col-md-5 pl-0 second_image">
+          <img src="img/mountain.png" alt="">
+        </div>
+        <div class="col-md-7 gray">
+          <div class="second_box">
+            <h1>出張先でも、アットホーム</h1>
+            <p>出張のときも、新天地に異動のときも安心。他の出張者が5つ星評価をつけたお部屋やデザイナーズホテルを探しましょう。</p>
+            <a href="#" class="anchor">仕事用スペースを完備した宿泊先を検索</a>
+          </div>
+        </div>
+      </div>
+      <!--2段目 -->
+      <div class="row second_wrapper2 mb-3">
+        <div class="col-md-7 green">
+          <div class="second_box">
+            <h1>チームの心をひとつに</h1>
+            <p>ラーメン作り教室やカヌーレッスンに参加。普段オフィスでは目にできない同僚たちの意外な面に触れ、深いレベルでつながれます。</p>
+            <a href="#">Airbnbの「体験」を検索</a>
+          </div>
+        </div>
+        <div class="col-md-5 pr-0 second_image">
+          <img src="img/mountain.png" alt="">
+        </div>
+      </div>
+      <!--３段目-->
+      <div class="row second_wrapper3">
+        <div class="col-md-5 pl-0 second_image">
+          <img src="img/mountain.png" alt="">
+        </div>
+        <div class="col-md-7 gray">
+          <div class="second_box">
+            <h1>創造力をかきたてるスペース</h1>
+            <p>煮詰まったら1日オフサイトで気分を変えてみませんか？ひらめきが湧く環境で、チームの生産性を高めましょう。</p>
+            <a href="#" class="anchor">Wi-Fi完備の宿泊先を見る</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!--安全第一-->
+  <div class="container-fluid third">
+    <div class="row safety">
+      <div class="col-xl-4 safety_box">
+        <h2>安全第一のシステム</h2>
+        <p>セキュアな支払いシステムから経験者のレビューまで、Airbnbは安全中心のシステムです。</p>
+        <a href="#">もっと詳しく</a>
+      </div>
+      <div class="col-xl-4 safety_boxes">
+        <h2>グローバルカスタマーサポート</h2>
+        <p>専門スタッフが、年中無休で営業時間内に11言語でサポートいたします。</p>
+        <a href="#">もっと詳しく</a>
+      </div>
+    </div>
+  </div>
+
+  <!--自活できるのがいいですね-->
+
+  <div class="container">
+    <div class="row speak">
+      <div class="col-md-5 speak1">
+        <img src="img/mountain.png" alt="">
+      </div>
+      <div class="col-md-5 speak2">
+        <p>「Airbnbは自活できるのがいいですね。毎晩外食しなくても、みんなで好きなものを料理できるし、とても出張とは思えないほど現地に根を下ろせます」</p>
+        <b>MARTA KUTT様</b>
+        <p>Transferwise社マネジャー</p>
+      </div>
+    </div>
+  </div>
+
+    <!--働き方を変えたいなら、Airbnbです-->
+  <div class="container-fluid change">
+    <div class="row change_work">
+      <div class="col-xs-12 change_box">
+        <h3>働き方を変えたいなら、Airbnbです</h3>
+        <div class="change_box1">
+          <b>まずは仕事用メールアドレスの入力から</b><br>
+          <input type="text" name="" value=""><br>
+        </div>
+        <div class="change_box2">
+          <b>出張管理をご担当ですか？</b><br>
+          <p>こんなにある、Airbnbビジネスプログラム法人企業様のメリット。</p>
+          <a href="#" class="anchor">もっと詳しく</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--フッター-->
+
+  <footer>
+    <div class="last">
+      <div class="Airbnb">
+        <ul>
+          <li><b>Airbnb</b></li><br>
+          <li><a href="">採用情報</a></li>
+          <li><a href="">ニュース</a></li>
+          <li><a href="">ポリシー</a></li>
+          <li><a href="">ダイバーシティー＆ビロンギング</a></li>
+          <li><a href="">アクセシビリティ対応</a></li>
+          <li><a href="">企業情報</a></li>
+        </ul>
+      </div>
+      <div class="staff">
+        <ul>
+          <li><b>スタッフのオススメ</b></li><br>
+          <li><a href="">信頼＆安全</a></li>
+          <li><a href="">お友達紹介クーポン</a></li>
+          <li><a href="">Airbnb Citizen</a></li>
+          <li><a href="">出張</a></li>
+          <li><a href="">アクティビティ</a></li>
+          <li><a href="">Airbnbmag</a></li>
+        </ul>
+      </div>
+      <div class="hosting">
+        <ul>
+          <li><b>ホスティング</b></li><br>
+          <li><a href="">ホストになる理由</a></li>
+          <li><a href="">おもてなしの心</a></li>
+          <li><a href="">ホストの責任</a></li>
+          <li><a href="">コミュニティセンター</a></li>
+          <li><a href="">体験を掲載</a></li>
+          <li><a href="">オープンホーム</a></li>
+        </ul>
+      </div>
+      <div class="support">
+        <ul>
+          <li><b>サポート</b></li><br>
+          <li><a href="">ヘルプ</a></li>
+          <li><a href="">エリアサポート</a><i class="fas fa-rss-square"></i></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="last2">
+      <div class="footer_logo">
+        <i class="fas fa-shapes fa-2x"></i>
+      </div>
+      <div class="link">
+        <a href="">Airbnb Global Services Limited<br>観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)</a>
+        <p>© 2020 Airbnb, Inc. All rights reserved.
+        <a href="#">利用規約</a>・<a href="#">プライバシー</a>・<a href="">サイトマップ</a></p>
+      </div>
+      <div class="icons">
+        <a href=""><i class="fab fa-facebook-f"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+      </div>
+
+    </div>
+  </footer>
+
+
+  </body>
+</html>
